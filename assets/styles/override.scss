@@ -1,0 +1,26 @@
+.home {
+    // color: get-light-color('text-over-accent-color');
+    
+    .background {
+        filter: blur(0px);
+    }
+
+    .greeting,
+    .greeting-subtitle {
+        // color: get-light-color('text-over-accent-color');
+        text-shadow: black 1px 0 10px;
+        
+
+    }
+    
+    .typing-carousel {
+        text-shadow: black 1px 0 10px;
+    }
+}
+
+.top-navbar {
+
+    .navbar-brand {
+        text-shadow: black 1px 0 10px;
+    }
+}

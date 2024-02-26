@@ -1,0 +1,50 @@
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+skills:
+- name: Kubernetes
+  logo: /images/sections/skills/kubernetes.png
+  summary: "Capable of deploying and managing Kubernetes clusters, and applications on Kubernetes."
+  url: "https://kubernetes.io/"
+
+- name: Istio
+  logo: /images/sections/skills/istio.svg
+  summary: "Deploying and managing service meshes in kubernetes with the main focus being on Istio."
+  url: "https://istio.io/"
+
+- name: Cloud Computing
+  logo: /images/sections/skills/cloud.png
+  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "Writing and deploy dockerfiles, multistage builds, and optimizing images for size and hardening."
+  url: "https://www.docker.com/"
+
+- name: Observability
+  logo: /images/sections/skills/prometheus.png
+  summary: "Capable of setup, configure Prometheus metrics. Experienced in writing PromQL queries. Experienced with Grafana and building out dashboards. I have a lot of experience with observability to alert and improve platform performance."
+  url: "https://prometheus.io/"
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "Capable of writing shell scripts, as well as administration. Most containers will be linux and if I'm using windows I'll probably develop in WSL."
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with AzureDevops and Bitbucket."
+  url: "https://git-scm.com/"
+
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Proficient in Python. I write most of my Infrastructure in Python using CDK, as well as writing APIs, adhoc scripts and general tooling to help with automation."
+
+- name: CI/CD
+  logo: /images/sections/skills/argo.png
+  summary: "Designing, deploying, and managing CI/CD Pipelines, as well as an advocate for the GitOps approach where I've mainly used ArgoCD."

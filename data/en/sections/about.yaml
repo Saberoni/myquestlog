@@ -1,0 +1,89 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Senior Devops Engineer
+# your company information
+# company:
+#   name: Company
+#   url: "https://www.company.com/"
+
+# your resume. this file path should be relative to you "static" directory
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: |
+  I am an experienced DevOps Engineer with over 6 years working in the cloud. Primarily AWS focused, 
+  but have also used a a lot of Azure and a small amount of GCP.
+  I enjoy containerization and specifically enjoy working with Kubernetes.
+  I believe in Infrastructure As Code rather than click-ops.
+  I am always eager to learn more, and enjoy problem solving. I value teamwork and collaboration over working alone, whilst 
+  also being self directed and willing to get stuck into the tasks at hand. 
+  I primarily work in Python and bash, but have experience with Powershell when having to deal with Windows systems.
+
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+# - name: Email
+#   icon: "fas fa-envelope"
+#   url: "nope@example.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/Saberoni"
+
+# - name: Stackoverflow
+#   icon: "fab fa-stack-overflow"
+#   url: "#"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/matt-sulley-4a2b622a9/"
+
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: soft-skill-indicator
+  name: AWS
+  percentage: 90
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Azure
+  percentage: 80
+  color: blue
+
+- type: soft-skill-indicator
+  name: GCP
+  percentage: 70
+  color: pink
+
+- type: soft-skill-indicator
+  name: Kubernetes
+  percentage: 80
+  color: blue
+
+- type: soft-skill-indicator
+  name: Python
+  percentage: 75
+  color: green
+
+- type: soft-skill-indicator
+  name: Docker
+  percentage: 90
+  color: blue
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
