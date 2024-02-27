@@ -15,6 +15,6 @@ Pages will automatically build and publish preview pages on pull requests, I hav
 |---------------|-------|
 | chore | :x: |
 | docs | :x: |
-| feat | ✅ :white_check_mark: |
-| fix | ✅ :white_check_mark: |
-| bug | ✅ :white_check_mark: |
+| feat | :white_check_mark: |
+| fix | :white_check_mark: |
+| bug | :white_check_mark: |
