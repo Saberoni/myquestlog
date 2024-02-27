@@ -1,4 +1,4 @@
-baseURL: "/"
+baseURL: /
 languageCode: en-gb
 title: Matt Sulley, a Resume
 
@@ -58,6 +58,9 @@ params:
 
     analytics:
       enabled: false
+
+    notes:
+      enable: true
 
   # Configure footer
   footer:
