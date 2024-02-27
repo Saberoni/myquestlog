@@ -18,3 +18,12 @@ Pages will automatically build and publish preview pages on pull requests, I hav
 | feat | :white_check_mark: |
 | fix | :white_check_mark: |
 | bug | :white_check_mark: |
+
+
+## Local Development
+
+1. Open repo in devcontainer
+2. run `hugo mod tidy`
+3. run `hugo mod npm pack`
+4. run `npm install`
+5. run local server `hugo server -w`
