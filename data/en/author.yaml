@@ -8,8 +8,8 @@ image: "images/author/pd-red.png"
 contactInfo:
   # email: "no@example.com"
   # phone: "+0123456789"
-  github: https://github.com/Saberoni
-  linkedin: https://www.linkedin.com/in/matt-sulley-4a2b622a9/
+  github: Saberoni
+  linkedin: matt-sulley-4a2b622a9
 
 # some summary about what you do
 summary:
