@@ -9,8 +9,6 @@
     .greeting-subtitle {
         // color: get-light-color('text-over-accent-color');
         text-shadow: black 1px 0 10px;
-        
-
     }
     
     .typing-carousel {
@@ -18,9 +16,10 @@
     }
 }
 
-.top-navbar {
-
-    .navbar-brand {
-        text-shadow: black 1px 0 10px;
+html[data-theme='dark'] {
+    .top-navbar {
+        .navbar-brand {
+            text-shadow: black 1px 0 10px;
+        }
     }
 }
