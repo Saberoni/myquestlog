@@ -1,4 +1,4 @@
-baseURL: /
+baseURL: https://myquestlog.pages.dev/
 languageCode: en-gb
 title: Matt Sulley, a Resume
 
@@ -61,6 +61,13 @@ params:
 
     notes:
       enable: true
+
+    darkMode:
+      enable: true
+
+    tags:
+      enable: true
+      on_card: true
 
   # Configure footer
   footer:
